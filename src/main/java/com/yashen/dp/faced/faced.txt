@@ -1,0 +1,15 @@
+Faced Design Pattern {Structural Design Pattern}
+pronounce this as :- (Fasaad)
+
+"Create Simplified interface for complex set of classes." (Hide Complexity)
+
+Mostly use this in Libraries , Frameworks .
+
+complex process with many classes , many interfaces with Simplify interface.
+it's simplify our work.
+manage file structure and manage process internally also. access via single window.
+
+
+Don't mess-up after looking this packages and classes , how they work together, witch class we start , sequence order.... it's just example!
+in that example , we don't know about packages , classes , interfaces... it's know only developer.
+we need some simplified documentation.
