@@ -1,0 +1,13 @@
+Factory Design Pattern
+
+Basically this pattern use to create something.
+as a example , Apple Factory creates iPhones , macbooks , iPads and more products.
+
+in programming world (OOP World), we use factory for creating objects.
+
+step 01 :- identify subClasses you have and create Supper DataType.
+step 02 :- create interface or abstract class and declare getInstance method. method return type will be super type.
+
+look , in AppleFactory contain PhoneFactory for iphone development , tablet factory and laptop factory as well.
+you can decide witch factory create (return) witch product.
+

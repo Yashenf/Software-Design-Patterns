@@ -9,7 +9,7 @@ public class DBConnection {
         // so now we can create objects outside of this class.
     }
 
-    public static DBConnection getInstance(){
+    public static synchronized DBConnection getInstance(){
         return dbConnection == null ? (dbConnection = new DBConnection()):dbConnection;
     }
 
